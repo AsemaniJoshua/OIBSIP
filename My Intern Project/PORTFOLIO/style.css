@@ -1,0 +1,606 @@
+body{
+    margin: 0;
+}
+
+.sidebar{
+    max-width: 35vw;
+    min-height: 100vh;
+    background-color: rgb(0,0,26);
+    padding: 10px;
+    display: inline-block;
+    color: white;
+    padding-top: 0;
+    margin-top: 0;
+    position: static;
+    top: 0;
+}
+
+#NameAbbreviation{
+    text-align: end;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 3rem;
+}
+nav ul li{
+    list-style-type: none; 
+    color: white;
+    margin-bottom: 8%;
+    clear: right;
+}
+nav ul a{
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul img{
+    float: left;
+    margin-right: 6%;
+}
+hr{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.socialMediaHandles img{
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.socialMediaHandles{
+    align-content: center;
+}
+.phoneNumber{
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 6%;
+}
+
+.phoneNumber img{
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.email{
+    display: flex;
+    margin-bottom: 6%;
+}
+
+.email img{
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.Location{
+    display: flex;
+}
+
+.Location img{
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+/*******************************************/
+
+#WholePage{
+    display: flex;
+    width: 100%;
+}
+
+
+/*******************************************/
+
+.divider{
+    width: 0.3%;
+}
+
+main{
+    display: block;    
+    width: 100%;
+}
+#section1{
+    width: 100%;
+    display: block;
+    background-color: rgb(12, 12, 56);
+    color: white;
+    margin-bottom: 0%;
+    
+}
+#mainSection1{
+    width: 100%;
+    display: flex;
+    background-color: rgb(12, 12, 56);
+    color: white;
+    margin-bottom: 0%;
+}
+#content{
+    display: block;
+    width: 50%;
+    justify-content: center;
+    align-content: center;
+    margin-left: 6%;
+    margin-right: 9%;
+    float: left;
+}
+#content h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+    color: white;
+}
+#content p{
+    font-size: 1.2rem;
+}
+#content button{
+    padding: 10px;
+    color: white;
+    background-color: greenyellow;
+    font-size: 1em;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+#picture{
+    background-color: rgb(12, 12, 56);
+    display: block;
+    width: 50%;
+    justify-content: center;
+    align-content: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/******************** Section 2***********************/
+
+#section2{
+    width: 100%;
+    display: block;
+    background-color: rgb(12, 12, 56);
+    color: white;
+    padding-bottom: 20px;
+    margin-top: 0%;
+    border-bottom: 1px solid white;
+}
+
+#mainSection2{
+    
+    width: 95%;
+    display: flex;
+    background-color: rgb(12, 12, 56);
+    color: white;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    margin-top: 0%;
+}
+
+#mainSection2 img{
+    width: 40%;
+    margin-right: 3%;
+    margin-top: 6%;
+}
+#allContent{
+    width: 60%;
+}
+
+
+
+#AboutMe{
+    font-size: 2rem;
+    margin-bottom: 0%;
+}
+
+#header hr{
+    margin-top: 0%;
+}
+
+#bodyContent2 h2{
+    font-size: 2rem;
+    display: block;
+}
+
+#OneTwo{
+    display: flex;
+    justify-content: space-between;
+}
+
+#One{
+    display: block;
+}
+
+#two{
+    display: block;
+}
+
+#One p,#two p{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#One P a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/******************** Section 3***********************/
+
+#section3{
+    width: 100%;
+    display: block;
+    background-color: rgb(12, 12, 46);
+    color: white;
+    margin-top: 0%;
+}
+
+#mainsection3{
+    
+    width: 100%;
+    display: block;
+    background-color: rgb(12, 12, 46);
+    color: white;
+    margin-top: 0%;
+}
+
+#footerContent{
+
+    padding: 30px;
+    text-align: center;
+}
+
+#footerContent h2{
+
+    font-size: 2rem;
+}
+
+#card1{
+    width: 45%;
+    background-color: hsla(0, 0%, 37%, 0.9);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    display: block;
+    margin-right: 3%;
+}
+
+#card1 h2{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: hsl(180, 100%, 67%);
+}
+
+#card2{
+    width: 45%;
+    background-color: hsla(0, 0%, 37%, 0.9);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    display: block;
+    margin-right: 3%;
+}
+
+#card2 h2{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: hsl(180, 100%, 67%);
+}
+
+#card3{
+    width: 45%;
+    background-color: hsla(0, 0%, 37%, 0.9);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    display: block;
+    margin-right: 3%;
+}
+
+#card3 h2{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: hsl(180, 100%, 67%);
+}
+
+#footerCards{
+    display: flex;
+    margin-left: 4%;
+}
+
+
+/* /******************************************** QUERIES *************************** */
+
+@media only screen and (max-width: 768px){
+
+    
+.sidebar{
+    display: block;
+    width: 100vw;
+    background-color: rgb(0,0,26);
+    padding: 10px;
+    color: white;
+    padding-top: 0;
+    margin-top: 0;
+    word-wrap: break-word;
+}
+
+#NameAbbreviation{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 3rem;
+}
+
+nav ul li{
+    list-style-type: none; 
+    color: white;
+    margin-bottom: 8%;
+}
+
+nav ul a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul img{
+    margin-right: 6%;
+}
+
+hr{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.socialMediaHandles img{
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.socialMediaHandles{
+    align-content: center;
+}
+
+.phoneNumber{
+    display: block;
+    margin-top: 10%;
+    margin-bottom: 6%;
+}
+
+.phoneNumber img{
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.email{
+    display: block;
+    margin-bottom: 6%;
+}
+
+.email img{
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.Location{
+    display: block;
+}
+
+.Location img{
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+#WholePage{
+    width: 100vw
+}
+
+.divider{
+    display: none;
+}
+
+main{
+    display: block;    
+    width: 100vw;
+    word-wrap: break-word;
+}
+#section1{
+    width: 100vw;
+    display: block;
+    background-color: rgb(12, 12, 56);
+    color: white;
+    margin-bottom: 0%;
+    
+}
+#mainSection1{
+    width: 100vw;
+    display: block;
+    background-color: rgb(12, 12, 56);
+    color: white;
+    margin-bottom: 0%;
+}
+
+#content{
+    display: block;
+    justify-content: center;
+    align-content: center;
+    margin-left: 6%;
+    margin-right: 9%;
+}
+
+#content h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+    color: white;
+}
+
+#content p{
+    font-size: 1.2rem;
+}
+
+#content button{
+    padding: 10px;
+    color: white;
+    background-color: greenyellow;
+    font-size: 1em;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+#picture{
+    background-color: rgb(12, 12, 56);
+    display: block;
+    width: 100vw;
+    justify-content: center;
+    align-content: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#section2{
+    width: 100vw;
+    display: block;
+    background-color: rgb(12, 12, 56);
+    color: white;
+    padding-bottom: 20px;
+    margin-top: 0%;
+    border-bottom: 1px solid white;
+}
+
+#mainSection2{
+    
+    width: 100vw;
+    display: block;
+    background-color: rgb(12, 12, 56);
+    color: white;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    margin-top: 0%;
+}
+
+#mainSection2 img{
+    display: none;
+}
+#allContent{
+    width: 100vw;
+}
+
+
+#AboutMe{
+    font-size: 2rem;
+    margin-bottom: 0%;
+}
+
+#header hr{
+    margin-top: 0%;
+}
+
+#bodyContent2 h2{
+    font-size: 2rem;
+    display: block;
+}
+
+#OneTwo{
+    display: block;
+}
+#One{
+    display: block;
+}
+
+#two{
+    display: block;
+}
+
+#One p,#two p{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#One P a{
+    text-decoration: none;
+    color: white;
+}
+
+#section3{
+    width: 100%;
+    display: block;
+    background-color: rgb(12, 12, 46);
+    color: white;
+    margin-top: 0%;
+}
+
+#mainsection3{
+    
+    width: 100%;
+    display: block;
+    background-color: rgb(12, 12, 46);
+    color: white;
+    margin-top: 0%;
+}
+
+#footerContent{
+
+    padding: 30px;
+    text-align: center;
+}
+
+#footerContent h2{
+
+    font-size: 2rem;
+}
+
+#card1{
+    width: 45%;
+    background-color: hsla(0, 0%, 37%, 0.9);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    display: block;
+    margin-right: 3%;
+}
+
+#card1 h2{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: hsl(180, 100%, 67%);
+}
+
+#card2{
+    width: 45%;
+    background-color: hsla(0, 0%, 37%, 0.9);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    display: block;
+    margin-right: 3%;
+}
+
+#card2 h2{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: hsl(180, 100%, 67%);
+}
+
+#card3{
+    width: 45%;
+    background-color: hsla(0, 0%, 37%, 0.9);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    display: block;
+    margin-right: 3%;
+}
+
+#card3 h2{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: hsl(180, 100%, 67%);
+}
+
+#footerCards{
+    display: block;
+    margin-left: 4%;
+}
+    
+}

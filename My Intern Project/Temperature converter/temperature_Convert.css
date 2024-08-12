@@ -1,0 +1,81 @@
+h1{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+#UserInput{
+    border-radius: 15px;
+    background-color: #2b2727;
+    color: #fff;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 2rem;
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+}
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#form{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    font-size: 2rem;
+    box-shadow: 10px 9px 7px rgb(0, 0, 0);
+    height: auto;
+}
+.radioButtons{
+    font-size: 2rem;
+}
+#fahrenheit, #kelvin, #celcius, #celcius1, #kelvin1, #fahrenheit1{
+    font-size: 3rem;
+}
+
+button{
+    background-color: rgb(51, 241, 51);
+    color: #fff;
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 2rem;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-bottom: 9px;
+}
+
+#form div{
+    font-size: 2rem;
+}
+#hello{
+    display: block;
+    width: 50%;     
+}
+#display{
+    display: block;
+    background-color: #857b7b;
+    border-radius: 15px;
+    width: 20%;
+    height: 200px;
+    color: #fff;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    box-shadow: 5px 5px 9px rgb(0, 0, 0);
+    font-size: 3rem;
+    align-content: center;
+}
+input{
+    font-size: 15px;
+}
